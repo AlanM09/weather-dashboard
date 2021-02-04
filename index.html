@@ -10,33 +10,29 @@
 </head>
 <body>
     
-    <!-- Weather Dashboard Header -->
+    <!-- Dashboard -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-5 text-center">Weather Dashboard</h1>
         </div>
     </div>
     
-    <!-- Main Content Container -->
+    <!-- City Search -->
     <div class="container-fluid">
-        <!-- Main Content Row -->
         <div class="row">
-            <!-- City Search Bar -->
             <div class="col-3 searchCol">
-                <!-- Search Form with Button -->
                 <h4>Search for a city:</h4>
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" id="cityInput" placeholder="City Name" aria-label="Recipient's username" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="citySearchBtn">
-                            <img src="Assets/search.png" width="20px"/></button>
+                        <button class="btn btn-outline-primary" type="button" id="citySearchBtn"></button>
                         </div>
                     </div>
-                    <!-- City Table List -->
+                    <!-- City History -->
                     <div class="list-group" id="cityList">
                       </div>                    
                 </div>
-                <!-- Weather Information Column -->
+                <!-- View Table for Cities Weather -->
                 <div class="col-9">
                     <div class="card" style="width: 100%;" id="weatherContainer"></div>
                       <div id="forecastContainer"></div>
